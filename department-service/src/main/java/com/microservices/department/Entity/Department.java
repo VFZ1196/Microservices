@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Department {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long departmentId;
 	
 	private String departmentName;
